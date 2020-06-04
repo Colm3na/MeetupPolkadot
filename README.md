@@ -37,8 +37,7 @@ Un conjunto de herramientas modular para construir cadenas de bloques. Polkadot 
 </p>
 
 ## ¿Qué es Kusama?
-La "red canaria" de Polkadot. Consiste en una versión anticipada y no auditada del software Polkadot. No es una red de prueba - después de la transición a NPoS, la red queda totalmente en manos de la comunidad (es decir, de los poseedores de tokens).
-Kusama es una red escalable de cadenas de bloques especializadas construidas usando Substrate y casi el mismo código que Polkadot. La red es un entorno de desarrollo para equipos que quieren moverse rápidamente e innovar exclusivamente en Kusama, o prepararse para el despliegue en Polkadot. Kusama y Polkadot fueron fundados por Gavin Wood, el cofundador y antiguo CTO de Ethereum.
+La "red canaria" de Polkadot. Kusama es una red escalable de cadenas de bloques especializadas construidas usando Substrate y casi el mismo código que Polkadot. La red es un entorno de desarrollo para equipos que quieren moverse rápidamente e innovar exclusivamente en Kusama, o prepararse para el despliegue en Polkadot. Kusama y Polkadot fueron fundados por Gavin Wood, el cofundador y antiguo CTO de Ethereum.
 
 <p align="center"> 
 <img src="./images/kusama.png">
