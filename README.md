@@ -2,6 +2,10 @@
 
 - Video completo [aquí](https://www.youtube.com/watch?v=EcL2o5f2A9A).
 
+<p align="center"> 
+<img src="./images/polkaworld.png">
+</p>
+
 ## ¿Qué es Polkadot?
 Una red heterogénea y multicadena que permite a varias blockchains de diferentes características realizar comunicaciones arbitrarias de cadena cruzada bajo una seguridad compartida.
 
@@ -21,17 +25,37 @@ Polkadot está diseñado para el cambio. Estamos en contra de no hacer algo. Est
 
 Polkadot es actualizable, lo que significa que es morfológico. Puede cambiar. Para cumplir sus promesas, Polkadot debe ser flexible y capaz de adoptar las mejores tecnologías y los activos de mayor valor del mundo.
 
+<p align="center"> 
+<img src="./images/kusama&polkadot.png">
+</p>
+
 ## ¿Qué es Substrate?
 Un conjunto de herramientas modular para construir cadenas de bloques. Polkadot se construye usando Substrate. Las cadenas construidas con Substrate serán fáciles de conectar como Parachains.
+
+<p align="center"> 
+<img src="./images/substrate.png">
+</p>
 
 ## ¿Qué es Kusama?
 La "red canaria" de Polkadot. Consiste en una versión anticipada y no auditada del software Polkadot. No es una red de prueba - después de la transición a NPoS, la red queda totalmente en manos de la comunidad (es decir, de los poseedores de tokens).
 
+<p align="center"> 
+<img src="./images/kusama.png">
+</p>
+
 ## ¿Qué es la Relay Chain?
 La cadena que coordina el consenso y la comunicación entre las parachains (y las cadenas externas, a través de puentes).
 
+<p align="center"> 
+<img src="./images/relaychain.png">
+</p>
+
 ## ¿Qué es una Parachain?
 Una cadena de bloques que reúne varias características que le permiten trabajar dentro de los límites de Polkadot. También conocida como "cadena paralela". Cada una puede tener una arquitectura única. Un Parachain es una estructura de datos específica de una aplicación que es globalmente coherente y verificable por los validadores de la Relay chain de Polkadot. Lo más común es que una Parachain tome la forma de una cadena de bloques, pero no hay necesidad específica de que sean cadenas de bloques reales. Toman su nombre del concepto de cadenas paralelas que corren paralelas a la Relay chain. Debido a su naturaleza complementaria, pueden paralelizar el procesamiento de transacciones y lograr la escalabilidad del sistema Polkadot. Son mantenidas por los _Collators_
+
+<p align="center"> 
+<img src="./images/parachain.png">
+</p>
 
 ## ¿Qué son las Parathreads?
 Las Parathreads son una idea para que las Parachains participen temporalmente (bloque a bloque) en la seguridad de Polkadot sin necesidad de alquilar un espacio dedicado como las Parachains. Esto se hace compartiendo económicamente el escaso recurso de un espacio para Parachain entre varios recursos en competencia (parathreads). Las cadenas que de otro modo no podrían adquirir un espacio de Parahain completo, o que no consideran económicamente sensato hacerlo, pueden seguir participando en la seguridad compartida de Polkadot, aunque con una cuota asociada por bloque. También ofrece una elegante salida a las Parachains que ya no necesitan un espacio dedicado para el Parachains, pero que desean seguir utilizando la Relay chain.
@@ -39,6 +63,10 @@ Las Parathreads son una idea para que las Parachains participen temporalmente (b
 ## ¿Qué son los Collators?
 Los collators mantienen las Parachains recogiendo las transacciones de Parachains de las usuarias y produciendo pruebas de transición del estado para los validadores.
 Estos participantes se ubicarán encima de las Parachains y proporcionarán pruebas a los validadores basadas en las transacciones de las Parachains. Los Collators mantienen las Parachains agregando las transacciones de Parachains en bloques de Parachains y produciendo pruebas estatales de transición para los validadores basadas en esos bloques. También supervisan la red y prueban el mal comportamiento a los validadores. Los Collators mantienen un "nodo completo" para una Parachain en particular, lo que significa que conservan toda la información necesaria para poder crear nuevos bloques y ejecutar transacciones de forma muy similar a como lo hacen los mineros con las cadenas de bloques actuales de PoW. En circunstancias normales, cotejarán y ejecutarán las transacciones para crear un bloque sin sellar y lo proporcionarán, junto con una prueba de transición de estado, a uno o más validadores encargados de proponer un bloque de Parachain.
+
+<p align="center"> 
+<img src="./images/collator.png">
+</p>
 
 ## ¿Qué es BABE?
 **B**lind **A**ssignment of **B**lock **E**xtension es el mecanismo para la producción de bloques de Polkadot.
